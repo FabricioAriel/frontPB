@@ -1,0 +1,40 @@
+table {
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+      
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .rainbow-button {
+    width:calc(10vw + 9px);
+    height:calc(9vw + 5px);
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:2vw;
+    font-weight:bold;
+  }
+  .rainbow-button:after {
+    content:attr(alt);
+    width:20vw;
+    height:8vw;
+    background-color:#191919;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
